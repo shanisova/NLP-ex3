@@ -1,0 +1,14 @@
+Summary of HMM POS Tagger
+
+main.py:
+This program implements a Hidden Markov Model (HMM)-based Part-of-Speech (POS) tagger using the Brown corpus. It includes:
+Baseline Evaluation: Tags words based on the most likely tag.
+HMM Tagging: Predicts tags using transition and emission probabilities.
+Add-One Smoothing: Enhances HMM accuracy for rare/unseen words.
+Pseudo-Words: Generalizes rare words into categories to improve tagging performance.
+Error Analysis: Outputs a confusion matrix and frequent tagging errors.
+Run the program to train and evaluate models on the news category of the Brown corpus.
+
+
+ex3.pdf:
+here we have the answers for Q 1 Q2 and the results of the main.py
